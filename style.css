@@ -1,0 +1,191 @@
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* introduce fonts poppins */
+body{
+    font-
+    family: 'Poppins', sans-serif;
+}
+/* starts website header */
+.website-title{
+    border: 5px solid white;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* title of website */
+.title{
+    margin-top: 207px;
+    margin-left: 156px;
+    font-size: 64px;
+    color: white;
+}
+/* introduce button */
+.Watch-live{
+    border: 1px solid white;
+    Width: 168px;
+    Height: 44px;
+    background-color: #E02C6D;
+    padding-top: 20px;
+    padding-left: 24px;
+    margin-left: 156px;
+    margin-top: 27px;
+}
+/* hover effect */
+.Watch-live:hover {
+    color: blue;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.Watch-live a{
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 10px;
+    color: rgb(146, 101, 101); 
+    size: 16px;  
+}
+/* banner image addition */
+.banner-image{
+    Width: 556.01px;
+    Height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+}
+/* ends of header */
+/* starts list of legend  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 85px;
+    margin-left: 195px;
+    margin-right: 225px;
+}
+.player{
+    border: 5px solid white;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 456px;
+    padding: 15px;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.player h4{
+    font-size: 28px;
+}
+.player p{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* ends of legendary players list */
+/* start copa america highlights */
+.highlights-title{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: indigo;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 85px;
+    margin-left: 195px;
+    margin-right: 225px;
+}
+.recap{
+    border: 5px solid white;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 550px;
+    padding: 15px;
+}
+
+.recap img{
+    width: 330px;
+    height: 256px;
+    padding-right: 15px;
+}
+.recap h4{
+    font-size: 28px;
+}
+.recap p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.recap a{
+    border: 1px solid white;
+    Width: 173px;
+    Height: 44px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: white; 
+    size: 16px;
+}
+/* copa america highlights end */
+/* footer work css starts */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 140px auto;
+}
+.footer-image img{
+    width: 484px;
+    margin-bottom: 20px;   
+}
+.fab{
+    margin-right: 14px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: lightgray;
+    padding: 8px;
+    border-radius: 50%;
+}
+/* ends of footer css work */
+/* -------------------
+    media-queries 
+--------------------*/
+/* mobile devices */
+
+
+@media only screen and (max-width:688px) {
+    .head{
+        background-color: #2D25A0;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .player, .highlights, .highlights-title, .recap{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 500px;
+    }
+    .player img{
+     width: 100%;
+     height: 50%;
+    }
+  /* footer section css starts */
+ 
+  .footer-img img {
+     width: 272px;
+     margin-bottom: 20px;
+ }
+ 
+ /* footer sectoin css ends */
