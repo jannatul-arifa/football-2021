@@ -159,9 +159,10 @@ footer{
 
 
 @media only screen and (max-width:688px) {
-    .head{
+    .website-title{
         background-color: #2D25A0;
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     } 
     .players{
         display: grid;
@@ -169,12 +170,35 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .player, .highlights, .highlights-title, .recap{
+    .title{
+        margin-top: 207px;
+        font-size: 64px;
+        color: white;
+    }
+    .player{
+        border: 5px solid white;
+        background: #FFFFFF;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights-title{
+        font-size: 30px;
+        padding-top: 40px;
+        color: indigo;
+    }
+    .highlights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 85px;
+    }
+    .recap{
+        border: 5px solid white;
+        background: #FFFFFF;
+    }
     }
     .player img{
      width: 100%;
+     padding: 0%;
     }
   /* footer section css starts */
  
