@@ -166,20 +166,15 @@ footer{
     .players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        border: none;
-        margin: 0px;
-        padding: 0px;
         justify-content: center;
         align-items: center;
     }
     .player, .highlights, .highlights-title, .recap{
         display: grid;
         grid-template-columns: 1fr;
-        margin-right: 500px;
     }
     .player img{
      width: 100%;
-     height: 50%;
     }
   /* footer section css starts */
  
